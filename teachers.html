@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="kindergarten-website-template" />
+    <link rel="shortcut icon" href="img/header.png" type="image/x-icon" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import css files -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <title>KidKinder - Kindergarten Website Template</title>
+    <style>
+      /* Барлық тәрбиешілердің суреттерін бірдей ету үшін */
+      .our-teachers .item .image img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand fs-1 fw-bold" href="/">Балбөбек әлемі</a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 p-0">
+            <li class="nav-item">
+              <a class="nav-link py-2 px-3 fw-bold text-black" aria-current="page" href="/">Басты бет</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 px-3 fw-bold text-black" href="about.html">Біз туралы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 px-3 fw-bold text-black" href="classes.html">Топтар</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 px-3 fw-bold text-black active" href="teachers.html">Тәрбиешілер</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 px-3 fw-bold text-black" href="gallery.html">Сурет жинағы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 px-3 fw-bold text-black" href="contact.html">Байланыс</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start Beradcrumb -->
+    <nav aria-label="breadcrumb" class="breadcrumb-section position-relative">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h2 class="text-center display-3 text-white">Біздің тәрбиешілер</h2>
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item">
+            <a href="/" class="text-white">Басты бет</a>
+          </li>
+          <li class="breadcrumb-item active text-white" aria-current="page">
+            Біздің тәрбиешілер
+          </li>
+        </ol>
+      </div>
+    </nav>
+    <!-- End Beradcrumb -->
+
+    <!-- Start Our teachers -->
+    <div class="our-teachers">
+      <div class="container">
+        <div class="main-heading text-center">
+          <span class="text-uppercase position-relative d-inline-block px-2">Біздің тәрбиешілер</span>
+          <h2 class="fw-bold my-3">Біздің тәрбиешілермен танысыңыз</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+          <!-- Teacher 1 -->
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img src="PHOTO-2025-12-24-19-34-08.jpg" class="img-fluid rounded-circle" alt="img" />
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center">
+                  <div>
+                    <i class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Бакыбаева Жанэлла Амангельдиевна</div>
+              <div class="fst-italic text-muted">“Солнышко” тобының тәрбиешісі</div>
+            </div>
+          </div>
+          <!-- Teacher 2 -->
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img src="PHOTO-2025-12-24-19-34-25.jpg" class="img-fluid rounded-circle" alt="img" />
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center">
+                  <div>
+                    <i class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Амангелді Айтолқын Маратқызы</div>
+              <div class="fst-italic text-muted">"Көгершін" тобының тәрбиешісі</div>
+            </div>
+          </div>
+          <!-- Teacher 3 -->
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img src="Screenshot 2025-12-29 at 14.49.19.png" class="img-fluid rounded-circle" alt="img" />
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center">
+                  <div>
+                    <i class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Тиркесбаева Қарлығаш Рахманбердиевна</div>
+              <div class="fst-italic text-muted">Айгөйлек тобының тәрбиешісі</div>
+            </div>
+          </div>
+          <!-- Teacher 4 -->
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img src="PHOTO-2025-12-25-12-40-07.jpg" class="img-fluid rounded-circle" alt="img" />
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center">
+                  <div>
+                    <i class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Данышпанова Камила Лесбекқызы</div>
+              <div class="fst-italic text-muted">Аигөлек тобының тәрбиешісі</div>
+            </div>
+          </div>
+          <!-- Teacher 5 -->
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img src="PHOTO-2025-12-25-13-58-22.jpg" class="img-fluid rounded-circle" alt="img" />
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center">
+                  <div>
+                    <i class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Дегенбаева Галия Абаевна</div>
+              <div class="fst-italic text-muted">"Балапан" тобының тәрбиешісі</div>
+            </div>
+          </div>
+          <!-- Teacher 6 -->
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img src="PHOTO-2025-12-25-13-58-43.jpg" class="img-fluid rounded-circle" alt="img" />
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center">
+                  <div>
+                    <i class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Қойгелдиева Жұлдыз Жақанқызы</div>
+              <div class="fst-italic text-muted">"Көгершін" тобының тәрбиешісі</div>
+            </div>
+          </div>
+          <!-- Teacher 7 -->
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img src="PHOTO-2025-12-25-21-13-57.jpg" class="img-fluid rounded-circle" alt="img" />
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center">
+                  <div>
+                    <i class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Козтаева Нуржанат Талдыбековна</div>
+              <div class="fst-italic text-muted">Ботақан тобының тәрбиешісі</div>
+            </div>
+          </div>
+          <!-- Teacher 8 -->
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img src="PHOTO-2025-12-26-09-22-25.jpg" class="img-fluid rounded-circle" alt="img" />
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center">
+                  <div>
+                    <i class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"></i>
+                    <i class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Тынышбаева Сандуғаш Жайлауовна</div>
+              <div class="fst-italic text-muted">Солнышко тобының тәрбиешісі</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our teachers -->
+
+    <!-- Start Testimonials -->
+    <!-- Testimonials HTML кодын сол қалпында қалдырыңыз -->
+
+    <!-- Start Footer -->
+    <!-- Footer HTML кодын сол қалпында қалдырыңыз -->
+
+    <!-- import js files -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

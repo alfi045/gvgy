@@ -1,0 +1,151 @@
+<!-- Балбөбек әлемі: 8 видео бөлімі -->
+<section class="balbobek-videos" id="videos">
+  <div class="balbobek-videos__inner">
+
+    <p class="balbobek-videos__eyebrow">Балбөбек әлемі</p>
+    <h2>Біздің балабақшадағы сәттер</h2>
+    <p class="balbobek-videos__intro">
+      Балалардың күнделікті қызықты сәттері мен жарқын естеліктері.
+    </p>
+
+    <div class="balbobek-videos__grid">
+
+      <article class="balbobek-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="video-1.mp4" type="video/mp4">
+        </video>
+        <h3>Видео 1</h3>
+      </article>
+
+      <article class="balbobek-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="video-2.mp4" type="video/mp4">
+        </video>
+        <h3>Видео 2</h3>
+      </article>
+
+      <article class="balbobek-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="video-3.mp4" type="video/mp4">
+        </video>
+        <h3>Видео 3</h3>
+      </article>
+
+      <article class="balbobek-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="video-4.mp4" type="video/mp4">
+        </video>
+        <h3>Видео 4</h3>
+      </article>
+
+      <article class="balbobek-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="video-5.mp4" type="video/mp4">
+        </video>
+        <h3>Видео 5</h3>
+      </article>
+
+      <article class="balbobek-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="video-6.mp4" type="video/mp4">
+        </video>
+        <h3>Видео 6</h3>
+      </article>
+
+      <article class="balbobek-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="video-7.mp4" type="video/mp4">
+        </video>
+        <h3>Видео 7</h3>
+      </article>
+
+      <article class="balbobek-video-card">
+        <video controls playsinline preload="metadata">
+          <source src="video-8.mp4" type="video/mp4">
+        </video>
+        <h3>Видео 8</h3>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<style>
+.balbobek-videos {
+  padding: 70px 20px;
+  background: #fffaf3;
+}
+
+.balbobek-videos__inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.balbobek-videos__eyebrow {
+  margin: 0 0 10px;
+  color: #f3a64a;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.balbobek-videos h2 {
+  margin: 0 0 12px;
+  color: #17324d;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.balbobek-videos__intro {
+  margin: 0 auto 32px;
+  max-width: 650px;
+  color: #687786;
+  line-height: 1.7;
+}
+
+.balbobek-videos__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  text-align: left;
+}
+
+.balbobek-video-card {
+  overflow: hidden;
+  padding: 12px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(28, 54, 77, .09);
+}
+
+.balbobek-video-card video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #172b3c;
+  border-radius: 10px;
+}
+
+.balbobek-video-card h3 {
+  margin: 14px 4px 5px;
+  color: #17324d;
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .balbobek-videos__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .balbobek-videos {
+    padding: 48px 16px;
+  }
+
+  .balbobek-videos__grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
